@@ -1,0 +1,92 @@
+[
+    {
+        "COURSE_ID": 1,
+        "COURSE_TITLE": "涨停先锋交易技巧",
+        "COURSE_IMG": "course1.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "宋毅彬",
+        "COURSE_PRICE": "免费",
+        "ENROLMENT": 56
+    },
+    {
+        "COURSE_ID": 2,
+        "COURSE_TITLE": "跟势交易系统·股票",
+        "COURSE_IMG": "course2.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "李柄增",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 189
+    },
+    {
+        "COURSE_ID": 3,
+        "COURSE_TITLE": "分形量化交易系统",
+        "COURSE_IMG": "course3.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "贺明",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 1023
+    },
+    {
+        "COURSE_ID": 4,
+        "COURSE_TITLE": "日内短线快速交易系统",
+        "COURSE_IMG": "course4.jpg",
+        "COURSE_TYPE": "外汇",
+        "COURSE_TEACHER": "邓文涛",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 369
+    },
+    {
+        "COURSE_ID": 5,
+        "COURSE_TITLE": "跟势交易系统·高级",
+        "COURSE_IMG": "course5.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "李柄增",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 793
+    },
+    {
+        "COURSE_ID": 6,
+        "COURSE_TITLE": "全时空交易系统",
+        "COURSE_IMG": "course6.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "李洛溪",
+        "COURSE_PRICE": "免费",
+        "ENROLMENT": 369
+    },
+    {
+        "COURSE_ID": 7,
+        "COURSE_TITLE": "量子量化交易系统",
+        "COURSE_IMG": "course7.jpg",
+        "COURSE_TYPE": "基金",
+        "COURSE_TEACHER": "高澍",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 5600
+    },
+    {
+        "COURSE_ID": 8,
+        "COURSE_TITLE": "跟势交易系统·中级",
+        "COURSE_IMG": "course8.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "李柄增",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 2330
+    },
+    {
+        "COURSE_ID": 9,
+        "COURSE_TITLE": "量子量化交易系统",
+        "COURSE_IMG": "course9.jpg",
+        "COURSE_TYPE": "基金",
+        "COURSE_TEACHER": "高澍",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 5600
+    },
+    {
+        "COURSE_ID": 10,
+        "COURSE_TITLE": "跟势交易系统·中级",
+        "COURSE_IMG": "course10.jpg",
+        "COURSE_TYPE": "股票",
+        "COURSE_TEACHER": "李柄增",
+        "COURSE_PRICE": "188.00",
+        "ENROLMENT": 2330
+    }
+]

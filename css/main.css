@@ -82,22 +82,22 @@ textarea {
   resize: none;
 }
 
-.clearfix, header .header-left nav, .course .course-box {
+.clearfix, header .header-left nav {
   zoom: 1;
 }
 
-.clearfix::before, header .header-left nav::before, .course .course-box::before {
+.clearfix::before, header .header-left nav::before {
   content: "";
   display: block;
   clear: both;
   overflow: hidden;
 }
 
-.clearfix .float-left, header .header-left nav .float-left, .course .course-box .float-left {
+.clearfix .float-left, header .header-left nav .float-left {
   float: left;
 }
 
-.clearfix .float-right, header .header-left nav .float-right, .course .course-box .float-right {
+.clearfix .float-right, header .header-left nav .float-right {
   float: right;
 }
 
@@ -398,41 +398,10 @@ header .header-right .header-login-box span {
 .course .course-head .more-course-line {
   border-bottom: 1px solid #e2e2e2;
   text-align: right;
-  font-size: 14px;
-  color: #b7b7b7;
   flex: 1;
 }
 
-.course .course-box figure {
-  width: 222px;
-  height: 215px;
-  border: 1px solid #e2e2e2;
-  box-shadow: 0 2px 5px 0 #d9dfe9;
-  background-color: #ffffff;
-  margin: 0 20px 20px 0;
-}
-
-.course .course-box figure:nth-child(5n) {
-  margin-right: 0;
-}
-
-.course .course-box figure .course-img {
-  display: inline-block;
-  height: 132px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.course .course-box figure .figcaption {
-  font-size: 14px;
-  line-height: 26px;
-  padding: 0 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.course .course-box figure .figcaption:hover {
-  color: #EC5308;
+.course .course-head .more-course-line a {
+  color: #b7b7b7;
+  font-size: 13px;
 }

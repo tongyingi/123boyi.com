@@ -1,0 +1,85 @@
+/*
+ *实现网站复用模块样式
+ *2019-1-9
+ */
+
+
+ .clearfix::before{
+     content: "";
+     display: block;
+     clear: both;
+     visibility: hidden;
+ }
+.clearfix{
+    zoom: 1;
+    &::before{
+        content: "";
+        display: block;
+        clear: both;
+        visibility: hidden;
+    }
+    .float-left{float: left;}
+    .float-right{float: right;}
+}
+//  课程模块展示
+.course-box{
+    @extend .clearfix;        
+    figure{
+        width: 222px;
+        height: 215px;
+        // border:1px solid #e2e2e2;
+        box-shadow: 0 2px 5px 0 #d9dfe9;
+        background-color: #ffffff;
+        margin: 0 20px 20px 0;
+        transition: all .3s linear;
+        &:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 5px 10px 0 #d9dfe9;
+        }
+        &:nth-child(5n){margin-right: 0;}
+        .course-img{
+            display: inline-block;
+            height: 132px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .figcaption{
+            display: block;
+            font-size: 14px;
+            line-height: 26px;
+            padding: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            &:hover{color: #ec5308;}
+        }
+        .course-description{
+            margin: 8px 0 0;
+            padding: 0 10px;
+            font-size: 12px;
+            color: #999999;
+            @extend .clearfix;
+            .course-people{
+                text-align: left;
+                em{
+                    font-style: normal;
+                    color: #4ba94d;
+                }
+            }
+            .course-price{
+                text-align: right;
+                color: crimson;
+                &.course-free{
+                    text-align: right;
+                    color: #4ba94d;
+                }
+            }
+            
+        }
+    }
+}
