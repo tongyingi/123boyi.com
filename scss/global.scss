@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 // css reset
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -25,8 +26,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    font-size: 100%;
+}
 $color333: #333333;
 $colorEC5308: #EC5308;
+$pos-relative:relative;
 body {
     line-height: 1;
     font-size: 16px;
@@ -77,13 +83,28 @@ textarea{
     -moz-transition: $val;
     -ms-transtion: $val;
     -o-transition: $val;
+    transition: $val;
 }
 @mixin g-transform($val) {
     -webkit-transform: $val;
     -moz-transform: $val;
     -ms-transform: $val;
     -o-transform: $val;
+    transform: $val;
 }
+@mixin g-input-color($val) {
+    input::-webkit-input-placeholder {color: $val}
+    input::-moz-placeholder {color: $val}
+    input:-moz-placeholder {color: $val}
+    input::-ms-input-placeholder {color: $val}
+    input::-o-placeholder {color: $val}
+}
+// 计算平均值
+@function calaPx($val1,$val2) {
+    @return $val1 / $val2;
+}
+
+
 
 .clearfix{
     zoom: 1;
@@ -109,6 +130,7 @@ textarea{
 .d-flex{
     display: flex;
     display: -webkit-flex;
+    
 }
 
 a:hover{
@@ -122,3 +144,4 @@ a:hover{
         margin: auto;
     }
 }
+
